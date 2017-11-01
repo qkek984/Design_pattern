@@ -9,7 +9,7 @@ import java.io.InputStreamReader;
  */
 public class DutchCoffeeWithHook extends CaffeineBeverageWithHook{
     public void brew() {
-        System.out.println("커피 추출 후 하루이틀 저온에서 숙성");
+        System.out.println("Low temperature ripening");
     }//더치 커피에 맞는 내용 추가
     public void addCondiments() {
         System.out.println("Adding Ice");
